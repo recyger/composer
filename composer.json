@@ -21,5 +21,11 @@
   ],
   "require"          : {
     "composer-plugin-api": "^1.0"
+  },
+  "autoload"         : {
+    "psr-4": {"testing\\composer\\": ""}
+  },
+  "extra"            : {
+    "class": "testing\\composer\\Plugin",
   }
 }
