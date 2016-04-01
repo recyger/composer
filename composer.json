@@ -1,15 +1,24 @@
 {
-    "name": "testing/composer",
-    "description": "The composer plugin for Yii extension installer",
-    "keywords": ["yii2", "composer", "extension installer"],
-    "type": "composer-plugin",
-    "license": "BSD-3-Clause",
-    "authors": [
-        {
-            "name": "Qiang Xue",
-            "email": "qiang.xue@gmail.com"
-        }
-    ],
+  "name"             : "testing/composer",
+  "description"      : "description_text",
+  "minimum-stability": "dev",
+  "license"          : "proprietary",
+  "type"             : "test-composer",
+  "config": {
+    "secure-http": false
+  },
+  "authors"          : [
+    {
+      "name" : "author's name",
+      "email": "email@example.com"
+    }
+  ],
+  "repositories" : [
+    {
+      "type" : "composer",
+      "url" : "http://packagist.itass.local/"
+    }
+  ]
     "require": {
         "composer-plugin-api": "^1.0"
     }
