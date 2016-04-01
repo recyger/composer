@@ -4,7 +4,7 @@
   "minimum-stability": "dev",
   "license"          : "proprietary",
   "type"             : "test-composer",
-  "config": {
+  "config"           : {
     "secure-http": false
   },
   "authors"          : [
@@ -13,13 +13,13 @@
       "email": "email@example.com"
     }
   ],
-  "repositories" : [
+  "repositories"     : [
     {
-      "type" : "composer",
+      "type": "composer",
       "url" : "http://packagist.itass.local/"
     }
-  ]
-    "require": {
-        "composer-plugin-api": "^1.0"
-    }
+  ],
+  "require"          : {
+    "composer-plugin-api": "^1.0"
+  }
 }
