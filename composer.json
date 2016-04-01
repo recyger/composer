@@ -1,5 +1,5 @@
 {
-  "name"             : "testing/composer",
+  "name"             : "testing/cinstaller",
   "description"      : "description_text",
   "minimum-stability": "dev",
   "license"          : "proprietary",
