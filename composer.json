@@ -26,6 +26,6 @@
     "psr-4": {"testing\\composer\\": ""}
   },
   "extra"            : {
-    "class": "testing\\composer\\Plugin",
+    "class": "testing\\composer\\Plugin"
   }
 }
