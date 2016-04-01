@@ -3,7 +3,7 @@
   "description"      : "description_text",
   "minimum-stability": "dev",
   "license"          : "proprietary",
-  "type"             : "test-composer",
+  "type"             : "composer-plugin",
   "config"           : {
     "secure-http": false
   },
